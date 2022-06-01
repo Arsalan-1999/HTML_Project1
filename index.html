@@ -1,13 +1,22 @@
----
-layout: presentation
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <b><h1>Welcome to My Resume</h1></b>
+    <b><u><h2>Professional Resume</h2></u></b>>
+    <br>
+    <img src="https://scontent.fkhi12-1.fna.fbcdn.net/v/t39.30808-6/245382512_2830431093924470_7867092834675744995_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGEw_NYSY1uFu-qwEHR3ZlWvn-LPij4cu--f4s-KPhy79c1lRBFO8Eb1B0hHBc54Efh0FpvkE0U8REld5L6NljD&_nc_ohc=Fy1MoD3Kn1MAX-Y8Cdx&tn=bC6KhDC4RjY8ay7U&_nc_ht=scontent.fkhi12-1.fna&oh=00_AT_e7p7bxuKkfAJB6Fky4dpwIwZcvRBvCCyjx0FgK2PhMg&oe=629C3DE6"
+    height="250"
+    alt="Potrait Picture">
+    <h3>Muhammad Arsalan</h3>
+    <hr>
+    <a href="/personal_details.html"> Personal Details </a>
 
-{% for post in site.posts reversed %}
-	{% include slide.html %}
-	<div class="page-break"></div>
-{% endfor %}
-{% unless site.simple-slideshow %}
-{% if site.overview %}
-<section id="overview" class="step" {% for attr in site.overview-data %} data-{{attr[0]}}="{{attr[1]}}"{% endfor %}></section>
-{% endif %}
-{% endunless %}
+
+</body>
+</html>
